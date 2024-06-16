@@ -28,19 +28,19 @@ const Checkbox = () => {
     <form className="col-6" onSubmit={handleFormSubmit}>
       <div className="mb-3">
         <input type="checkbox" className="form-check-input" name="green" ref={greenRef}/>
-        <label className="form-label">Green</label>
+        <label className="form-label ms-2">Green</label>
       </div>
       <div className="mb-3">
         <input type="checkbox" className="form-check-input" name="blue" ref={blueRef}/>
-        <label className="form-label">Blue</label>
+        <label className="form-label ms-2">Blue</label>
       </div>
       <div className="mb-3">
         <input type="checkbox" className="form-check-input" name="red" ref={redRef}/>
-        <label className="form-label">Red</label>
+        <label className="form-label ms-2">Red</label>
       </div>
       <div className="mb-3">
         <input type="checkbox" className="form-check-input" name="yellow" ref={yellowRef}/>
-        <label className="form-label">Yellow</label>
+        <label className="form-label ms-2">Yellow</label>
       </div>
       <button type="submit" className="btn btn-primary">Submit</button>
     </form>

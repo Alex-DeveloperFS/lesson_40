@@ -6,7 +6,7 @@ const Checkbox = () => {
 
   const handleFormSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    
+    console.log(formData)
 
   }
 
