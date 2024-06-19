@@ -1,6 +1,6 @@
 import {FormEvent, useRef} from 'react'
 
-const Checkbox = () => {
+const CheckboxUncontrolled = () => {
 
   const greenRef = useRef<HTMLInputElement>(null)
   const blueRef = useRef<HTMLInputElement>(null)
@@ -47,4 +47,4 @@ const Checkbox = () => {
   )
 }
 
-export default Checkbox
+export default CheckboxUncontrolled

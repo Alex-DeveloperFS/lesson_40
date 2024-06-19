@@ -1,12 +1,12 @@
 import {useEffect, useState} from 'react'
-import {UserInterface} from './types/User.interface.ts'
-import {fetchData} from './utils/api.ts'
+import { UserInterface } from '../types/User.interface.ts'
+import {fetchData} from '../utils/api.ts'
 
-const App = () => {
+const UseEffect= () => {
+
   const [users, setUsers] = useState<UserInterface[]>([])
   const [error, setError] = useState<string | null>(null)
   const [isLoading, setIsLoading] = useState<boolean>(false)
-
 
   useEffect(() => {
 
@@ -31,7 +31,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>render of users</h1>
+      <h4>Render of users</h4>
       {isLoading && <p>Loading...</p>}
       {error && <h2>{error}</h2>}
       {/*<input type="number" onChange={(e) => setCount(+e.target.value)}/>*/}
@@ -43,4 +43,5 @@ const App = () => {
     </div>
   )
 }
-export default App
+
+export default UseEffect

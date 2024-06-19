@@ -1,6 +1,6 @@
 import {FormEvent,  useState} from 'react'
 
-const Checkbox = () => {
+const CheckboxControlled = () => {
 
   const [green, setGreen] = useState<boolean>(false)
   const [blue, setBlue] = useState<boolean>(false)
@@ -38,4 +38,4 @@ const Checkbox = () => {
   )
 }
 
-export default Checkbox
+export default CheckboxControlled
